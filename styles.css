@@ -6,6 +6,7 @@ background-color: crimson;
 font-family: cursive;
 
 
+
 }
 
 
@@ -14,3 +15,20 @@ body {
     background-color: purple;
 
 }
+
+
+#results {
+
+    width: 500px;
+}
+
+#pan {
+
+    font-size: 50px;
+}
+/* 
+#searchstuff {
+
+
+    border:grey solid 5px;
+} */
