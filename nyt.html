@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <title>NYT</title>
+    
+<link rel="stylesheet" href="styles.css">
+<title>NYT</title>
 </head>
 <body>
 
 
-<div class="jumbotron">
+<div class="jumbotron" id="jumb">
         <h1>New York Times Search!</h1>
    
         
@@ -30,24 +32,24 @@
 
         <div class="input-group">
                 <span class="input-group-addon" id="basic-addon1">Search Term</span>
-                <input type="text" class="form-control" placeholder="Search Term" aria-describedby="basic-addon1">
+                <input type="text" class="form-control" placeholder="Search Term" aria-describedby="basic-addon1" id="searchTerm">
               </div>
               <div class="input-group">
                     <span class="input-group-addon" id="basic-addon1">Number of records of retrieve:</span>
-                    <input type="text" class="form-control" placeholder="Number of records of retrieve" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="Number of records of retrieve" aria-describedby="basic-addon1" id="numRecords">
                   </div>
                   <div class="input-group">
                         <span class="input-group-addon" id="basic-addon1">Start year (optional)</span>
-                        <input type="text" class="form-control" placeholder="Start year (optional)" aria-describedby="basic-addon1">
+                        <input type="text" class="form-control" placeholder="Start year (optional)" aria-describedby="basic-addon1" id="startYear">
                       </div>
                       <div class="input-group">
                             <span class="input-group-addon" id="basic-addon1">End year (optional)</span>
-                            <input type="text" class="form-control" placeholder="End year (optional)" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="End year (optional)" aria-describedby="basic-addon1" id="endYear">
                           </div>
-
+<br>
                           <div class="btn-group" role="group" aria-label="...">
-                              <button type="button" class="btn btn-default">Search</button>
-                              <button type="button" class="btn btn-default">Clear Results</button>
+                              <button type="button" class="btn btn-default" id="search">Search</button>
+                              <button type="button" class="btn btn-default"id="clear">Clear Results</button>
                          
                             </div>
         
